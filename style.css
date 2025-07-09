@@ -83,5 +83,76 @@ header {
 .offers-section img {
     width: 70%;
     height: auto;
-    margin-top: 4%;
+    margin-top: 40px;
+}
+
+/* party section */
+
+.party-section{
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat ;
+    margin: 40px 0px;
+}
+.gredient{
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin: 0;
+    height: 600px;
+}
+
+.party-greetings{
+    color: #ffffff;
+    text-align: left;
+    padding: 140px;
+}
+
+.party-image{
+    padding: 60px 40px 140px 0px;
+    
+}   
+
+.party-greetings h1{
+    font-weight: 900;
+    font-size: 64px;
+    
+}
+
+.party-greetings p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.party-greetings a{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* party info */
+.party-info{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0.3), rgba(255, 255, 255, 90));
+    text-align: center;
+    padding: 100px 390px;
+    border-radius: 16px;
+    margin: 40px 0px;
+}
+
+.party-info h1{
+    color: #000000;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.party-info h1 span{
+    color: #FF0000;
+}
+
+.party-info button{
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 40px;
 }
